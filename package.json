@@ -1,0 +1,38 @@
+{
+  "name": "iu-cli",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "iucli": "bin/iucli.mjs"
+  },
+  "files": [
+    "bin/iucli.mjs",
+    "template",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "esno ./src/index.ts",
+    "build": "unbuild"
+  },
+  "dependencies": {
+    "pacote": "^15.0.8",
+    "prompts": "^2.4.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "@types/pacote": "^11.1.5",
+    "@types/prompts": "^2.4.2",
+    "@types/yargs": "^17.0.19",
+    "eslint": "^8.31.0",
+    "esno": "^0.16.3",
+    "picocolors": "^1.0.0",
+    "typescript": "^4.9.4",
+    "unbuild": "^1.0.2"
+  },
+  "keywords": [
+    "iucli"
+  ]
+}
