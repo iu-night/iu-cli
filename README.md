@@ -5,6 +5,10 @@
 ### usage
 
 ```shell
+npm i -g iu-cli
+```
+
+```shell
 iucli
 ```
 or
@@ -15,7 +19,7 @@ iucli [path] -t [templateName]
 ---
 
 ```shell
-npx iucli
+npx iu-cli
 ```
 
 #### templateName

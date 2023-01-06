@@ -18,19 +18,18 @@ const cwd = process.cwd()
 
 const res = yargs(hideBin(process.argv))
   .scriptName('iucli')
-  .usage('$0 [projectName] <options>')
+  .usage('$0 [path] <options>')
   .option('template', {
     alias: 't',
     default: '',
     type: 'string',
-    describe: '项目模板',
+    describe: 'project template',
   })
   .showHelpOnFail(true)
   .alias('h', 'help')
   .version('version', version)
   .alias('v', 'version')
   .help()
-  .locale('zh_CN')
 
 const TEMPLATES = FRAMEWORKS.map(
   f => (f.variants && f.variants.map(v => v.name)) || [f.name],
