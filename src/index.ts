@@ -23,7 +23,7 @@ const res = yargs(hideBin(process.argv))
     alias: 't',
     default: '',
     type: 'string',
-    describe: 'project template',
+    describe: 'project template: [\'vue-ts\', \'ts-starter\']',
   })
   .showHelpOnFail(true)
   .alias('h', 'help')

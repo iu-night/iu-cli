@@ -1,0 +1,21 @@
+{
+  "name": "ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "esno ./src/index.ts",
+    "build": "unbuild"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "eslint": "^8.31.0",
+    "esno": "^0.16.3",
+    "typescript": "^4.9.4",
+    "unbuild": "^1.0.2"
+  }
+}

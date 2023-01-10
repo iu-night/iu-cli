@@ -39,6 +39,18 @@ export const FRAMEWORKS: Framework[] = [
       // },
     ],
   },
+  {
+    name: 'ts',
+    display: 'Ts',
+    color: c.white,
+    variants: [
+      {
+        name: 'ts-starter',
+        display: 'Starter',
+        color: c.white,
+      },
+    ],
+  },
   // {
   //   name: 'react',
   //   display: 'React',
