@@ -40,14 +40,19 @@ export const FRAMEWORKS: Framework[] = [
     ],
   },
   {
-    name: 'ts',
-    display: 'Ts',
-    color: c.white,
+    name: 'starter',
+    display: 'Starter',
+    color: c.yellow,
     variants: [
       {
         name: 'ts-starter',
-        display: 'Starter',
-        color: c.white,
+        display: 'Ts',
+        color: c.blue,
+      },
+      {
+        name: 'vitepress-starter',
+        display: 'Vitepress',
+        color: c.red,
       },
     ],
   },

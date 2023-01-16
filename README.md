@@ -27,6 +27,7 @@ npx iu-cli
 - [x] `vue-ts`
 - [ ] `react-ts`
 - [x] `ts-starter`
+- [x] `vitepress-starter`
 
 ## Thanks
 `create-vite`
