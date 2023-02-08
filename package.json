@@ -1,10 +1,11 @@
 {
   "name": "iu-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "type": "module",
   "license": "MIT",
   "bin": {
+    "iu-cli": "bin/iucli.mjs",
     "iucli": "bin/iucli.mjs"
   },
   "files": [
