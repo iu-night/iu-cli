@@ -16,3 +16,8 @@ const count = ref(0)
   color: #888;
 }
 </style>
+
+<preview lang="md">
+  # preview
+  <HelloWorld msg="in preview"/>
+</preview>

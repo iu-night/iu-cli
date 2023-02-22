@@ -2,7 +2,8 @@
 	"extends": "@antfu",
 	"rules": {
 		"no-console": "off",
-		"@typescript-eslint/no-unused-vars": "off",
-		"prefer-const": "off"
+		"prefer-const": "off",
+		"unused-imports/no-unused-vars": "off",
+		"unused-imports/no-unused-imports": "off"
 	}
 }

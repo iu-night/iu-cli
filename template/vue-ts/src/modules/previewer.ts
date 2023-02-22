@@ -1,4 +1,4 @@
-import Previewer from 'virtual:vue-component-preview'
+import Previewer from 'vite-plugin-vue-component-preview/client'
 import { type UserModule } from '@/types'
 
 export const install: UserModule = ({ app }) => {

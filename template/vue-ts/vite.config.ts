@@ -15,6 +15,8 @@ import VueMacros from 'unplugin-vue-macros/vite'
 
 // import { VitePWA } from 'vite-plugin-pwa'
 
+const PreviewFunc = (Preview as any).default
+
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
@@ -24,7 +26,7 @@ export default defineConfig({
   },
 
   plugins: [
-    Preview(),
+    PreviewFunc(),
 
     VueMacros({
       plugins: {
